@@ -1,24 +1,11 @@
 # 📊 Titanic - Advanced Data Visualization
 
-![Titanic](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1200px-RMS_Titanic_3.jpg)
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Latest-green?style=for-the-badge&logo=pandas)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive-orange?style=for-the-badge&logo=plotly)
-![Seaborn](https://img.shields.io/badge/Seaborn-Latest-9cf?style=for-the-badge)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Latest-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Internship](https://img.shields.io/badge/CodeAlpha-Internship-blueviolet?style=for-the-badge)
-
----
-
-## 📌 Overview
+##  Overview
 
 This project focuses on **Advanced Data Visualization** of the Titanic dataset. While Exploratory Data Analysis (EDA) helps us understand data, **Data Visualization** helps us tell a compelling story through beautiful and interactive charts. This project transforms raw Titanic data into professional, meaningful, and interactive visual insights using Python's most powerful visualization libraries.
 
----
 
-## 🎯 Objectives
+##  Objectives
 
 - ✅ Transform raw Titanic data into meaningful visual stories
 - ✅ Build both static and interactive charts
@@ -26,7 +13,7 @@ This project focuses on **Advanced Data Visualization** of the Titanic dataset. 
 - ✅ Create a complete interactive dashboard
 - ✅ Build a strong data visualization portfolio
 
----
+
 
 ## 📁 Project Structure
 CodeAlpha_DataVisualization/
@@ -54,7 +41,7 @@ CodeAlpha_DataVisualization/
 
 ---
 
-## 🛠️ Tools & Libraries Used
+##  Tools & Libraries Used
 
 | Tool/Library | Purpose |
 |-------------|---------|
@@ -66,9 +53,9 @@ CodeAlpha_DataVisualization/
 | Plotly | Interactive charts & dashboards |
 | Jupyter Notebook | Interactive coding environment |
 
----
 
-## 📊 Visualizations & Explanations
+
+##  Visualizations & Explanations
 
 ### 1️⃣ Correlation Heatmap
 ![Correlation Heatmap](images/correlation_heatmap.png)
@@ -95,8 +82,8 @@ This heatmap displays the **statistical relationship** between every numerical v
 An **interactive grouped bar chart** comparing survival rates of male and female passengers across all three passenger classes.
 
 **Key Insights:**
-- 🥇 **1st Class Female** → Highest survival rate (~97%)
-- 🥉 **3rd Class Male** → Lowest survival rate (~15%)
+-  **1st Class Female** → Highest survival rate (~97%)
+-  **3rd Class Male** → Lowest survival rate (~15%)
 - In **every class**, female survival rate was significantly higher than male
 - Clear evidence of **"Women and Children First"** evacuation policy
 
@@ -114,17 +101,17 @@ Four different charts analyzing how **age influenced survival** on the Titanic.
 - Most deaths occurred in the **20-40 age group**
 
 **Chart 2 — Age Group Survival Rate:**
-- 👶 **Children** had the highest survival rate (~58%)
-- 👴 **Seniors** had the lowest survival rate
+-  **Children** had the highest survival rate (~58%)
+-  **Seniors** had the lowest survival rate
 - Children were prioritized during evacuation
 
 **Chart 3 — Box Plot (Class & Age):**
-- 📦 Box shows the middle 50% of passenger ages
-- 📏 Line inside box shows the median age
+-  Box shows the middle 50% of passenger ages
+-  Line inside box shows the median age
 - ⚫ Dots outside show unusual/extreme ages (outliers)
 
 **Chart 4 — Violin Plot (Gender & Age):**
-- 🎻 Wider section means more passengers at that age
+-  Wider section means more passengers at that age
 - Female survival was consistently better across all age groups
 
 ---
@@ -136,7 +123,7 @@ Four different charts analyzing how **age influenced survival** on the Titanic.
 A beautiful **interactive sunburst chart** showing survival breakdown across three levels simultaneously — Survival Status → Passenger Class → Gender.
 
 **How to read it:**
-- 🌟 **Center ring** → Overall Survived vs Not Survived
+-  **Center ring** → Overall Survived vs Not Survived
 - 🔵 **Middle ring** → Breakdown by passenger class (1st, 2nd, 3rd)
 - 🟢 **Outer ring** → Further breakdown by gender
 - Bigger slice = More passengers in that category
@@ -159,8 +146,8 @@ How the **ticket fare** passengers paid was related to their class and survival.
 - 🔴 **3rd Class** → Cheap tickets ($5-$20)
 
 **Chart 2 — Survival Rate by Fare Group:**
-- 💰 **Very High fare** → ~65% survival rate
-- 💸 **Low fare** → ~20% survival rate
+-  **Very High fare** → ~65% survival rate
+-  **Low fare** → ~20% survival rate
 - Clear pattern: **More money paid = Higher survival chance**
 
 ---
@@ -193,8 +180,8 @@ A **professional interactive dashboard** with 4 charts in one place giving a com
 Relationship between **every variable** with **every other variable** in one single chart.
 
 **How to read it:**
-- 📌 **Diagonal boxes** → Distribution curve (KDE) of one variable
-- 📌 **Other boxes** → Scatter plot between two variables
+-  **Diagonal boxes** → Distribution curve (KDE) of one variable
+-  **Other boxes** → Scatter plot between two variables
 - 🟢 **Green points** → Survived passengers
 - 🔴 **Red points** → Not survived passengers
 
@@ -215,18 +202,18 @@ Three clean professional charts summarizing the most important findings.
 - 🟢 **38.4%** → Survived (342 passengers)
 
 **Chart 2 — Survival by Gender:**
-- 👩 **Female → 74.2%** survived
-- 👨 **Male → 18.9%** survived
+-  **Female → 74.2%** survived
+-  **Male → 18.9%** survived
 - "Women First" policy clearly visible
 
 **Chart 3 — Survival by Class:**
-- 🥇 **1st Class → 62.9%** survived
-- 🥈 **2nd Class → 47.3%** survived
-- 🥉 **3rd Class → 24.2%** survived
+-  **1st Class → 62.9%** survived
+-  **2nd Class → 47.3%** survived
+-  **3rd Class → 24.2%** survived
 
 ---
 
-## 📚 Key Conclusions
+##  Key Conclusions
 
 1. **Gender** was the strongest factor — females had ~4x higher survival rate than males
 2. **Passenger Class** directly impacted survival — wealthier passengers had better lifeboat access
@@ -236,7 +223,7 @@ Three clean professional charts summarizing the most important findings.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 **Step 1:** Clone this repository
 ```bash
@@ -264,7 +251,7 @@ jupyter notebook
 
 ---
 
-## 👤 Author
+##  Author
 
 **Raffia Pervaiz**
 CodeAlpha Data Analytics Internship
